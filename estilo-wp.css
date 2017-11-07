@@ -1,0 +1,98 @@
+.customButton {
+     padding: 100px; font-size: 34px;
+ }
+
+.fusion-title .title-sep.sep-single {
+    border-bottom-width: 4px;
+}
+
+.fusion-title.fusion-title-center .title-heading-center {
+    padding: 0 15px;
+}
+
+.bt_full {
+    width: 100% !important;
+}
+
+#wrapper .button-round {
+    border-radius: 2px;
+    width: 100% !important;
+}
+
+.fusion-footer-widget-area {
+    background-color: #00368a;
+    border-color: #00368a;
+    background-attachment: fixed;
+    background-position: top center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.fusion-footer-copyright-area {
+    background-color: #4972b1;
+    border-color: #4972b1;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+.fusion-main-menu > ul > li > a {
+    padding: 0px 15px 0px 15px;
+}
+
+.fusion-main-menu > ul > li > a:hover {
+    border-color: #00368a;
+    background-color: #00368a;
+    color: #ffffff;
+    padding: 0px 15px 0px 15px;
+}
+.fusion-main-menu > ul > li > a:hover {
+    color: #ffffff;
+}
+.fusion-testimonials.classic blockquote q {
+    padding: 0px;
+}
+
+.fusion-testimonials.classic .company-name {
+    color: #0e3d8c;
+    float: right;
+}
+
+.meta .fusion-date, .post-content blockquote, .review blockquote q {
+    font-style: normal;
+}
+
+.contatos-footer{
+    position: relative;
+    text-align: right;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.contatos-footer-icon{
+    position: relative;
+    width: 40px;
+}
+.contatos-footer-txt{
+position: relative;
+float: left;
+font-size: 15px;
+margin-left: 44px;
+margin-top: -21px;
+}
+
+
+    .social-rodape{
+    position: relative;
+    text-align: right;
+    padding-top: 20px;
+    }
+
+    .social-rodape-icon{
+    margin-left: 20px;
+    }
+
+.ponto{
+    padding: ;
+}
+
+
+
