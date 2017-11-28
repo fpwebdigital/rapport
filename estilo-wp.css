@@ -180,15 +180,294 @@
     text-align: left;
 }
 
+.bgazul1 {
+    background-color: rgba(90, 127, 184, 0.6);
+    color: rgba(90, 127, 184, 0.6);
+}
+.bgazul2{
+    background-color: rgba(25, 74, 149, 0.6);
+    color: rgba(25, 74, 149, 0.6);
+}
+.bgazul3{
+    background-color: rgba(131, 178, 223, 0.6);
+    color: rgba(131, 178, 223, 0.6);
+}
+
+
 @media only screen and (max-device-width: 640px) and (min-device-width: 320px){
 
 #tarja-azul {
     height: 10px;
 }
     .post-content h1 {
-        font-size: 22px;
-        line-height: 48px;
+        font-size: 20px;
+        line-height: 29px;
+    }::-webkit-input-placeholder {
+         color: #00368a;
+         font-weight: 700;
+     }
+
+    :-moz-placeholder { /* Firefox 18- */
+        color: #00368a;
+        font-weight: 700;
     }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+        color: #00368a;
+        font-weight: 700;
+    }
+
+    :-ms-input-placeholder {
+        color: #00368a;
+        font-weight: 700;
+    }
+
+    .txt-qm {
+        background-color: #00338e;
+    }
+
+    .fusion-mobile-menu-icons {
+        margin-top: 18px;
+    }
+
+    #img-qm{
+        top: -21px;
+    }
+
+    #esp-bt{
+        margin-top: -23px;
+    }
+
+    .customButton {
+        padding: 100px; font-size: 34px;
+    }
+
+    .fusion-title .title-sep.sep-single {
+        border-bottom-width: 4px;
+    }
+
+    .fusion-title.fusion-title-center .title-heading-center {
+        padding: 0 15px;
+    }
+
+    .bt_full {
+        width: 100% !important;
+    }
+
+    #wrapper .button-round {
+        border-radius: 2px;
+        width: 100% !important;
+    }
+
+    .fusion-footer-widget-area {
+        background-color: #00368a;
+        border-color: #00368a;
+        background-attachment: fixed;
+        background-position: top center;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+
+    .fusion-footer-copyright-area {
+        background-color: #4972b1;
+        border-color: #4972b1;
+        padding-top: 5px;
+        padding-bottom: 6px;
+    }
+    .fusion-main-menu > ul > li > a {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .fusion-main-menu > ul > li > a:hover {
+        border-color: #00368a;
+        background-color: #00368a;
+        color: #ffffff;
+        padding: 0px 15px 0px 15px;
+    }
+    .fusion-main-menu > ul > li > a:hover {
+        color: #ffffff;
+    }
+    .fusion-testimonials.classic blockquote q {
+        padding: 0px;
+    }
+
+    .fusion-testimonials.classic .company-name {
+        color: #0e3d8c;
+        float: right;
+    }
+
+    .meta .fusion-date, .post-content blockquote, .review blockquote q {
+        font-style: normal;
+    }
+
+    .contatos-footer{
+        position: relative;
+        text-align: right;
+        padding-top: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .contatos-footer-icon{
+        position: relative;
+        width: 40px;
+    }
+    .contatos-footer-txt{
+        position: relative;
+        float: left;
+        font-size: 15px;
+        margin-left: 44px;
+        margin-top: -21px;
+    }
+
+
+    .social-rodape{
+        position: relative;
+        text-align: right;
+        padding-top: 15px;
+    }
+
+    .social-rodape-icon{
+        margin-left: 20px;
+        width: 25px;
+    }
+
+    .ponto{
+        padding: ;
+    }
+
+    .bt-enviar {
+        background-color: #4972b1 !important;
+    }
+    .bt-limpar {
+        background-color: #aacaea !important;
+        color: #00368a !important;
+    }
+
+    .wpcf7-form input[type="submit"]:hover, .wpcf7-submit:hover{
+        background: #4972b1;
+        color: #ffffff;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4972b1, endColorstr=#4972b1);
+    }
+
+    #comment-input input, #comment-textarea textarea, #wrapper .search-table .search-field input, .avada-select .select2-container .select2-choice, .avada-select .select2-container .select2-choice .select2-arrow, .avada-select .select2-container .select2-choice2 .select2-arrow, .avada-select-parent .select-arrow, .avada-select-parent select, .chzn-container .chzn-drop, .chzn-container-single .chzn-single, .comment-form-comment textarea, .gravity-select-parent .select-arrow, .input-text, .main-nav-search-form input, .post-password-form label input[type="password"], .search-page-search-form input, .select-arrow, .wpcf7-captchar, .wpcf7-form .wpcf7-date, .wpcf7-form .wpcf7-number, .wpcf7-form .wpcf7-quiz, .wpcf7-form .wpcf7-select, .wpcf7-form .wpcf7-text, .wpcf7-form textarea, .wpcf7-select-parent .select-arrow, input.s, input[type="text"], select, textarea {
+        border-color: #4972b1;
+        border: solid 2px #4972C1;
+    }
+
+    #comment-input input, .avada-select .select2-container .select2-choice, .avada-select-parent select, .chzn-container .chzn-drop, .chzn-container-single .chzn-single, .input-text:not(textarea), .main-nav-search-form input, .post-password-form label input[type="password"], .search-page-search-form input, .searchform .search-table .search-field input, .wpcf7-captchar, .wpcf7-form .wpcf7-date, .wpcf7-form .wpcf7-number, .wpcf7-form .wpcf7-quiz, .wpcf7-form .wpcf7-select, .wpcf7-form .wpcf7-text, input.s, input[type="text"], select {
+        height: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #tarja-azul {
+        height: 35px;
+    }
+    .icon-contato{
+
+    }
+    .txt-icon-contato{
+        text-align: left;
+        font-size: 16px;
+        color: #00368a;
+        font-weight: bold;
+        top: 16px;
+        position: relative
+    }
+    #info-contato{
+        margin-top: -10px;
+        margin-left: 50px;
+        float: left;
+    }
+
+    #logo-rodape{
+        text-align: left;
+    }
+
+    .bgazul1 {
+        background-color: rgba(90, 127, 184, 0.6);
+        color: rgba(90, 127, 184, 0.6);
+    }
+    .bgazul2{
+        background-color: rgba(25, 74, 149, 0.6);
+        color: rgba(25, 74, 149, 0.6);
+    }
+    .bgazul3{
+        background-color: rgba(131, 178, 223, 0.6);
+        color: rgba(131, 178, 223, 0.6);
+    }
+
+    .list-txt-cursos {
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+        color: #4972b1;
+    }
+
+    .esp-img-cursos{
+        margin-bottom: 20px;
+    }
+
+
+    @media only screen and (max-device-width: 640px) and (min-device-width: 320px){
+
+        .list-txt-cursos {
+            text-align: left;
+            font-size: 14px;
+            font-weight: bold;
+            color: #4972b1;
+        }
+
+        .ngg-gallery-thumbnail img {
+            width: 110px;
+        }
+
+        #tarja-azul {
+            height: 10px;
+        }
+        .post-content h1 {
+            font-size: 20px;
+            line-height: 29px;
+        }
+        #img-icones {
+            width: 100px;
+            height: 90px;
+        }
+        #esp-img {
+            margin-bottom: 15px;
+        }
+        #img-contato {
+            display: none;
+        }
+        #info-contato{
+            margin-top: -10px;
+            margin-left: 0px;
+        }
+        .txt-icon-contato{
+            font-size: 12px;
+        }
+        #logo-rodape{
+            text-align: center;
+        }
+        .contatos-footer-txt {
+            font-size: 13px;
+        }
+
+        .contatos-footer {
+            padding-top: 0px;
+        }
+
+        .social-rodape {
+            text-align: center;
+            padding-top: 0px;
+        }
+        .fusion-columns .fusion-column:not(.fusion-column-last) {
+            margin: 0 0 20px;
+        }
+
+    }
+
+
     #img-icones {
         width: 100px;
         height: 90px;
