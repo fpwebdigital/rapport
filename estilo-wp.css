@@ -407,6 +407,15 @@
     .esp-img-cursos{
         margin-bottom: 20px;
     }
+    #icon-programas {
+        margin-top: 12px;
+    }
+
+    .fusion-title h1 img, .fusion-title h2 img, .fusion-title h3 img, .fusion-title h4 img, .fusion-title h5 img, .fusion-title h6 img, .comment-respond .fusion-title .comment-reply-title img {
+        margin-top: 12px;
+    }
+
+
 
 
     @media only screen and (max-device-width: 640px) and (min-device-width: 320px){
@@ -418,8 +427,14 @@
             color: #4972b1;
         }
 
+        .fusion-title h1 img{
+            margin-top: 0px;
+        }
         .ngg-gallery-thumbnail img {
-            width: 110px;
+            width: 120px;
+        }
+        .icon-programas {
+            margin-top: 3px;
         }
 
         #tarja-azul {
