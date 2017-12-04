@@ -26,6 +26,14 @@
     margin-top: 18px;
 }
 
+.ngg-gallery-thumbnail a {
+    margin: 13px !important;
+}
+
+.ngg-gallery-thumbnail {
+    margin: 13px !important;
+}
+
 #img-qm{
     top: -21px;
 }
@@ -431,8 +439,18 @@
             margin-top: 0px;
         }
         .ngg-gallery-thumbnail img {
-            width: 120px;
+            width: 120px !important;
+            text-align: center;
         }
+
+        .ngg-gallery-thumbnail a {
+            margin: 4px !important;
+        }
+
+        .ngg-gallery-thumbnail {
+            margin: 4px !important;
+        }
+
         .icon-programas {
             margin-top: 3px;
         }
